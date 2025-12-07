@@ -1,0 +1,89 @@
+ {
+  "purchase_order": {
+    "po_number": "PO-998877",
+    "date": "2024-10-27",
+    "vendor": {
+      "name": "Acme Corp"
+    },
+    "bill_to": {
+      "name": "Client Inc"
+    },
+    "invoice_reference": "INV-2024-001",
+    "items": [
+      {
+        "description": "Widget A",
+        "quantity": 2,
+        "rate": 50.00,
+        "amount": 100.00
+      },
+      {
+        "description": "Service Fee",
+        "quantity": 1,
+        "rate": 20.00,
+        "amount": 20.00
+      }
+    ],
+    "summary": {
+      "total_amount": 120.00,
+      "currency": "USD"
+    }
+  }
+}
+
+{
+  "invoice_id": "INV-1765100978",
+  "vendor_name": "Acme Corp",
+  "amount": 1000.0,
+  "attachments": [
+    "invoice1.pdf"
+  ]
+}
+
+
+##########################################################################
+{
+  "purchase_order": {
+    "po_number": "PO-556644",
+    "date": "2024-11-05",
+    "vendor": {
+      "name": "BrightTech Solutions"
+    },
+    "bill_to": {
+      "name": "Global Ventures Ltd"
+    },
+    "invoice_reference": "INV-2024-145",
+    "items": [
+      {
+        "description": "Cloud Hosting Subscription - Monthly",
+        "quantity": 1,
+        "rate": 120.00,
+        "amount": 120.00
+      },
+      {
+        "description": "Setup & Onboarding Fee",
+        "quantity": 1,
+        "rate": 80.00,
+        "amount": 80.00
+      },
+      {
+        "description": "Additional Storage (50GB)",
+        "quantity": 2,
+        "rate": 15.00,
+        "amount": 30.00
+      }
+    ],
+    "summary": {
+      "total_amount": 230.00,
+      "currency": "USD"
+    }
+  }
+} 
+
+{
+  "invoice_id": "INV-1765100978",
+  "vendor_name": "BrightTech Solutions",
+  "amount": 230.0,
+  "attachments": [
+    "invoice2.pdf"
+  ]
+}
